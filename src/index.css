@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(0, 0, 0, 0.87);
+  background-color: #f9fafb;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  transition: background-color 0.2s, color 0.2s;
+  overflow: hidden;
+}
+
+html.dark body {
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #252525;
+}
+
+.note button:not(.undo) {
+  scale: 0;
+  transition: scale 100ms;
+}
+.note:hover button:not(.undo) {
+  scale: 1;
+}
+
+.hide {
+  scale: 0;
+}
