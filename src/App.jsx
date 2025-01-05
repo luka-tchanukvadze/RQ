@@ -65,7 +65,7 @@ function App() {
         initial={{ scale: 0 }}
         animate={{ scale: 1 }}
         transition={{ delay: 0.2 }}
-        className="absolute bottom-4 right-4 text-4xl rounded-full bg-primary aspect-square w-10 text-light grid place-items-center p-3 transition hover:brightness-90 group"
+        className="absolute bottom-12 right-4 text-4xl rounded-full bg-primary aspect-square w-10 text-light grid place-items-center p-3 transition hover:brightness-90 group"
         onClick={() => setIsAddingNote(true)}
       >
         <img
