@@ -39,7 +39,7 @@ function App() {
   }, [isDarkMode]);
 
   return (
-    <main className="mx-auto max-w-4xl p-4 relative min-h-screen">
+    <main className="mx-auto max-w-4xl p-4 relative min-h-[90%]">
       <AnimatePresence>
         {isAddingNote && <NoteModal handleClose={handleNoteModalClose} />}
       </AnimatePresence>
