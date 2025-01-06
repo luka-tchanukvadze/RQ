@@ -90,7 +90,7 @@ const Note = ({
           </div>
           <label
             htmlFor={noteData.id}
-            className={`flex-1 ${
+            className={`flex-1 break-all ${
               noteData.complete ? "line-through opacity-60" : ""
             }`}
           >
